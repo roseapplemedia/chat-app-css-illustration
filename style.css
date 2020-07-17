@@ -54,7 +54,7 @@ body {
   /* margin: auto; */
   width: 60vw;
   display: grid;
-  grid-template-columns: repeat(2, max(auto, 1fr));
+  grid-template-columns: repeat(2, minmax(auto, 1fr));
   grid-template-rows: 1fr;
   column-gap: 7.8125rem;
 }
